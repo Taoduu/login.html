@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uniasselvi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .divider {
+            border-left: 40px solid #0c0c0c;
+            padding-left: 100px;
+            margin: 10px 0;
+        }
+
+        #header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            display: block;
+            margin: 25px auto;
+            width: 480px;
+            height: 350px;
+            background: url('https://seeklogo.com/images/U/uniasselvi-logo-C2AA37D821-seeklogo.com.png') no-repeat;
+        }
+
+        #search-container {
+            text-align: center;
+            margin: 30px auto;
+        
+        }
+
+        .search-input {
+            width: 560px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        #search-button {
+            background-color: #005bb1;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #menu {
+            text-align: center;
+            margin-left: 0px; 
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: #333;
+            margin: 10px;
+        }
+
+        #menu i {
+            margin-right: 4px;
+        }
+
+        #login {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        #login a {
+            text-decoration: none;
+            color: #101011;
+            margin-left: 10px;
+        }
+
+        #login img {
+            width: 30px;
+            height: 30px;
+        }
+
+        #buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .button {
+            background-color: #0c0c0c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+            text-align: left;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="buttons">
+            <a class="button" href="#"><i class="fas fa-home"></i> Semestres</a>
+            <hr class="divider">
+            <a class="button" href="#"><i class="fas fa-graduation-cap"></i> Meu Curso</a>
+            <hr class="divider">
+            <a class="button" href="#"><i class="fas fa-money-bill"></i> Financeiro</a>
+            <hr class="divider">
+            <a class="button" href="#"><i class="fas fa-headset"></i> Atendimento</a>
+            <hr class="divider">
+            <a class="button" href="#"><i class="far fa-comments"></i> Comunicação</a>
+            <hr class="divider">
+        </div>
+        
+        <a id="logo"></a>
+        <div id="login">
+            <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <img src="https://i.pinimg.com/564x/18/6f/0f/186f0fff11e2a860a269afdd8f31c9ed.jpg" alt="Login">
+        </div>
+    </div>
+
+    <div id="search-container">
+        <form action="https://bibliotecavirtual.uniasselvi.com.br" method="get">
+            <input type="text" class="search-input" name="q2" placeholder="Encontre livros, e-books, teses etc." autocomplete="off">
+            <input type="submit" id="search-button" value="Encontrar">
+        </form>
+    </div>
+
+    <div id="menu">
+       <a href="https://login.uniasselvipos.com.br">Portal do Candidato</a>
+       <a href="https://portal.uniasselvi.com.br/cursolivre">Cursos Livres</a>
+       <a href="https://portal.uniasselvi.com.br/graduacao/alunos">Graduação</a>
+       <a href="https://portal.uniasselvi.com.br/institucional/nucleos-de-atendimento">Atendimento</a>
+</div>
+
